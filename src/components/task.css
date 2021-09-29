@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.cont-img img{
+    width: 50vw;
+    height:50vh ;
+    
+}
+.pera{
+    width: 50vw;
+    height:50vh ;
+}
+.inc{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+
+@media only screen and (max-width: 993px){
+     
+    .cont-img img{
+        width: 100vw;
+        height:40vh ;
+        display: block;
+        margin: 0 15px;
+    }
+    .pera{
+        width: 100vw;
+        margin: 0 15px;
+        height:auto ;
+        display: block;
+    }
+    .inc{
+      padding-top: 10px;
+    }
+}
